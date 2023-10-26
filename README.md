@@ -18,3 +18,6 @@ Si el usuario presiona RELOAD, la pregunta cambia automaticamente.
 El juego cuenta con un temporizador que si llega a los 15 segundos, el juego termina.
 Cada vez que una pregunta es respondida correctamente, $1000 son agregados al pozo de premio.
 Al finalizar la partida, el premio es almacenado en un archivo .json con la cantidad de preguntas respondidas y la fecha.
+
+# Link al video
+https://youtu.be/8QVK1xUHGxI
