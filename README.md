@@ -1,23 +1,22 @@
-# Esto o Aquello Pygame
-Primer parcial de laboratorio, 2do cuatrimestre 2023
+# Esto o Aquello 🟥🟦
 
-# Datos personales:
-Felipe Parache
-División D
-DNI: 43631515
+## Descripción del Juego
+"Esto o Aquello" es un juego de preguntas rápidas donde el usuario compite con cinco jugadores virtuales para adivinar la opción más popular, eligiendo entre dos colores: **rojo** y **azul**. Cada pregunta tiene un tiempo límite de 15 segundos y un pozo de premios en aumento con cada respuesta correcta.
 
-# Descripcion del juego
-Esto o aquello es un juego donde el usuario y los otros 5 participantes (aleatorios, guiados por la maquina) 
-deberán elegir entre dos opciones (rojo o azul) según la pregunta que se muestra en pantalla.
-El usuario deberá acertar la respuesta correcta, dependiendo de los votos que los demas participantes hayan hecho.
-Si la respuesta es correcta, el juego continúa. Caso contrario el juego finaliza.
-El usuario cuenta con tres comodines de ayuda de un solo uso: NEXT, HALF y RELOAD
-Si el usuario presiona NEXT, la pregunta automaticamente es respondida correctamente como si hubiera elegido la opcion correcta.
-Si el usuario presiona HALF, se muestran los votos que tiene la opcion de color rojo.
-Si el usuario presiona RELOAD, la pregunta cambia automaticamente.
-El juego cuenta con un temporizador que si llega a los 15 segundos, el juego termina.
-Cada vez que una pregunta es respondida correctamente, $1000 son agregados al pozo de premio.
-Al finalizar la partida, el premio es almacenado en un archivo .json con la cantidad de preguntas respondidas y la fecha.
+## Objetivo 🎯
+El objetivo es seleccionar la respuesta más popular y así continuar acumulando dinero en el pozo de premios.
 
-# Link al video
-https://youtu.be/8QVK1xUHGxI
+## Cómo Jugar 🎮
+
+1. **Seleccionar Color**: Elige entre `Rojo` y `Azul` en cada pregunta.
+2. **Comodines**:
+   - **NEXT**: Marca la pregunta actual como correcta.
+   - **HALF**: Muestra los votos en la opción `Rojo`.
+   - **RELOAD**: Cambia la pregunta.
+3. **Temporizador**: Responde antes de que termine el tiempo (15 segundos).
+4. **Premio**: Cada respuesta correcta aumenta el pozo en $1000.
+
+## Sistema de Puntuación 🏆
+- Al final de la partida, se guarda un archivo `.json` con la cantidad de respuestas correctas y la fecha de la partida.
+
+¡Buena suerte y elige sabiamente entre Esto o Aquello! 🏅
